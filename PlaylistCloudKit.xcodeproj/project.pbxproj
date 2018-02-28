@@ -8,20 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		E41CE89420471F8E00F2F057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE89320471F8E00F2F057 /* AppDelegate.swift */; };
-		E41CE89620471F8E00F2F057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE89520471F8E00F2F057 /* ViewController.swift */; };
 		E41CE89920471F8E00F2F057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41CE89720471F8E00F2F057 /* Main.storyboard */; };
 		E41CE89B20471F8E00F2F057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41CE89A20471F8E00F2F057 /* Assets.xcassets */; };
 		E41CE89E20471F8E00F2F057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41CE89C20471F8E00F2F057 /* LaunchScreen.storyboard */; };
+		E41CE8A820471FAF00F2F057 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41CE8A720471FAF00F2F057 /* CloudKit.framework */; };
+		E41CE8AA204720B400F2F057 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8A9204720B400F2F057 /* Song.swift */; };
+		E41CE8AE204721B100F2F057 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8AD204721B100F2F057 /* Playlist.swift */; };
+		E41CE8B120472BB900F2F057 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8B020472BB900F2F057 /* PlaylistController.swift */; };
+		E41CE8B320472CA400F2F057 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8B220472CA400F2F057 /* SongController.swift */; };
+		E41CE8B520472D3400F2F057 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8B420472D3400F2F057 /* CloudKitManager.swift */; };
+		E41CE8B9204751A400F2F057 /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8B8204751A400F2F057 /* SongListTableViewController.swift */; };
+		E41CE8BC204751E900F2F057 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41CE8BB204751E900F2F057 /* PlaylistTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E41CE89020471F8E00F2F057 /* PlaylistCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41CE89320471F8E00F2F057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E41CE89520471F8E00F2F057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E41CE89820471F8E00F2F057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E41CE89A20471F8E00F2F057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41CE89D20471F8E00F2F057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41CE89F20471F8E00F2F057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41CE8A520471FA500F2F057 /* PlaylistCloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlaylistCloudKit.entitlements; sourceTree = "<group>"; };
+		E41CE8A720471FAF00F2F057 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E41CE8A9204720B400F2F057 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E41CE8AD204721B100F2F057 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		E41CE8B020472BB900F2F057 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		E41CE8B220472CA400F2F057 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		E41CE8B420472D3400F2F057 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		E41CE8B8204751A400F2F057 /* SongListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
+		E41CE8BB204751E900F2F057 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41CE8A820471FAF00F2F057 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,7 @@
 			children = (
 				E41CE89220471F8E00F2F057 /* PlaylistCloudKit */,
 				E41CE89120471F8E00F2F057 /* Products */,
+				E41CE8A620471FAF00F2F057 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,77 @@
 		E41CE89220471F8E00F2F057 /* PlaylistCloudKit */ = {
 			isa = PBXGroup;
 			children = (
+				E41CE8A520471FA500F2F057 /* PlaylistCloudKit.entitlements */,
 				E41CE89320471F8E00F2F057 /* AppDelegate.swift */,
-				E41CE89520471F8E00F2F057 /* ViewController.swift */,
-				E41CE89720471F8E00F2F057 /* Main.storyboard */,
+				E41CE8BA204751B100F2F057 /* UI */,
+				E41CE8B72047518700F2F057 /* View Controllers */,
+				E41CE8AB204720B800F2F057 /* Models */,
+				E41CE8AF20472BAB00F2F057 /* Model Controllers */,
+				E41CE8B620472D3800F2F057 /* Helpers */,
+				E41CE8AC204720C600F2F057 /* Resources */,
+			);
+			path = PlaylistCloudKit;
+			sourceTree = "<group>";
+		};
+		E41CE8A620471FAF00F2F057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41CE8A720471FAF00F2F057 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E41CE8AB204720B800F2F057 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E41CE8A9204720B400F2F057 /* Song.swift */,
+				E41CE8AD204721B100F2F057 /* Playlist.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E41CE8AC204720C600F2F057 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E41CE89A20471F8E00F2F057 /* Assets.xcassets */,
 				E41CE89C20471F8E00F2F057 /* LaunchScreen.storyboard */,
 				E41CE89F20471F8E00F2F057 /* Info.plist */,
 			);
-			path = PlaylistCloudKit;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E41CE8AF20472BAB00F2F057 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E41CE8B020472BB900F2F057 /* PlaylistController.swift */,
+				E41CE8B220472CA400F2F057 /* SongController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		E41CE8B620472D3800F2F057 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E41CE8B420472D3400F2F057 /* CloudKitManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E41CE8B72047518700F2F057 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E41CE8B8204751A400F2F057 /* SongListTableViewController.swift */,
+				E41CE8BB204751E900F2F057 /* PlaylistTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E41CE8BA204751B100F2F057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E41CE89720471F8E00F2F057 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +177,14 @@
 					E41CE88F20471F8E00F2F057 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41CE89620471F8E00F2F057 /* ViewController.swift in Sources */,
+				E41CE8B320472CA400F2F057 /* SongController.swift in Sources */,
+				E41CE8AA204720B400F2F057 /* Song.swift in Sources */,
+				E41CE8B520472D3400F2F057 /* CloudKitManager.swift in Sources */,
+				E41CE8B120472BB900F2F057 /* PlaylistController.swift in Sources */,
 				E41CE89420471F8E00F2F057 /* AppDelegate.swift in Sources */,
+				E41CE8B9204751A400F2F057 /* SongListTableViewController.swift in Sources */,
+				E41CE8AE204721B100F2F057 /* Playlist.swift in Sources */,
+				E41CE8BC204751E900F2F057 /* PlaylistTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlaylistCloudKit/PlaylistCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistCloudKit/Info.plist;
+				DEVELOPMENT_TEAM = CJKY4ZP9T7;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCloudKit/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PlaylistCloudKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brocktyler.PlaylistCloudKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -288,10 +384,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlaylistCloudKit/PlaylistCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistCloudKit/Info.plist;
+				DEVELOPMENT_TEAM = CJKY4ZP9T7;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCloudKit/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PlaylistCloudKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brocktyler.PlaylistCloudKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
